@@ -1,0 +1,1 @@
+Simple example testing Vue.js with a multi page application in asp.Net MVC 5.
