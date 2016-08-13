@@ -6,12 +6,16 @@ var gulp = require("gulp"),
     gutil = require("gulp-util");
 
 gulp.task("webpack", function (callback) {
+
     // run webpack
     webpack({
-        entry: './scripts/src/app.js',
+        entry: {
+            contactEdit: './scripts/src/contact/edit.js',
+            contactSearch: './scripts/src/contact/search.js'
+        },
         output: {
             path: './scripts/built',
-            filename: 'app.bundle.js'
+            filename: '[name].bundle.js'
         },
         module: {
             loaders: [{

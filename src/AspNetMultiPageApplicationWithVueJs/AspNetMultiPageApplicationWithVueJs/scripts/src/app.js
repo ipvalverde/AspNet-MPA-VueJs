@@ -10,5 +10,5 @@
     }
 }
 
-var demo = new DemoApp('This is a test');
+var demo = new DemoApp('This is a test, using babel');
 demo.print();

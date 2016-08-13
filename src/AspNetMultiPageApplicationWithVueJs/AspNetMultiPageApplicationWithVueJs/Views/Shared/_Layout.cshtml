@@ -7,7 +7,6 @@
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
-    <script src="~/Scripts/built/app.bundle.js"></script>
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -27,7 +26,7 @@
         </div>
     </div>
 
-    <div class="container body-content">
+    <div id="app" class="container body-content">
         @RenderBody()
         <hr />
         <footer>
