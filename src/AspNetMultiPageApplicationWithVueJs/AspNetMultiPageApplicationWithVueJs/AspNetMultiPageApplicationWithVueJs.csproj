@@ -97,6 +97,8 @@
     <Content Include="gulpfile.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\built\contactSearch.bundle.js" />
+    <Content Include="webpack.config.js" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="scripts\built\contactEdit.bundle.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
